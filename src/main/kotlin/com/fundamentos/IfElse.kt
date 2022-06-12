@@ -1,13 +1,13 @@
 package com.fundamentos
 
 fun main(){
-
+  println(parOuImpar(2))
 }
 
 fun parOuImpar(numero: Int): String {
-    if (numero%2 == 0 ) {
-        return "Par"
+    return if (numero%2 == 0 ) {
+        "Par"
     } else {
-        return "Ímpar"
+        "Ímpar"
     }
 }
